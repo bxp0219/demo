@@ -1,0 +1,23 @@
+CACHE MANIFEST
+
+
+#注释
+#指定要缓存的内容
+CACHE:
+index.html
+js/jquery.min.js
+js/jquery.fullPage.min.js
+
+ images/bg.png
+ images/blank.gif
+ images/p2.png
+
+
+#当我们连接上网络的时候，所有的东西都要更新
+ NETWORK:
+ *
+
+
+ FALLBACK:
+
+images/p1.png  images/p2.png
